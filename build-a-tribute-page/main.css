@@ -38,3 +38,48 @@ body {
 #img-caption {
   font-size: 1.1em;
 }
+
+/* #tribute-info {
+  text-align: center;
+} */
+
+.tibrute-info-title {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.tibrute-info-bullet-point {
+  list-style: none;
+  text-align: justify;
+  width: 75%;
+  margin-left: 15%;
+}
+
+li:hover {
+  font-size: 1.3em;
+}
+
+.quote {
+  /* width: 95%; */
+  /* display: flex; */
+  text-align: center;
+  /* justify-content: center; */
+  font-size: 0.96em;
+}
+
+.quote-author {
+  /* display: flex; */
+  text-align: center;
+}
+
+#tribute-link {
+  text-align: center;
+  text-decoration: none;
+  color: rgba(85, 85, 177, 0.74);
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+  text-decoration: overline;
+  color: rgba(0, 0, 0, 0.74);
+}
