@@ -1,0 +1,31 @@
+body {
+  font-family: 'Courier New', 'Courier', 'monospace';
+  margin: 0 auto;
+}
+
+#title {
+  padding: 1.5%;
+  margin: 0 auto;
+}
+
+.main-background {
+  background: #7acec2;
+  text-align: center;
+  /* margin-top: 5%; */
+  height: 100vh;
+}
+
+.blah {
+  background: #e6dfcc;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-bottom: 1%;
+}
+
+/* FORM */
+#name {
+  color: #f58b57;
+  width: 20%;
+  margin-bottom: 1%;
+}
+/* FORM */
