@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background: #4fadb1a2;
+  position: fixed;
+  width: 100vw;
+  height: 7vh;
+  /* top: 0; */
+}
+
+a {
+  text-decoration: none;
+  margin-right: 5%;
+  margin-top: 1%;
+  color: #43797aa2;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #ffffffa2;
+}
+
+#welcome-section {
+  background: #229da1a2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-section-text {
+  margin: 1%;
+}
+
+#work-section {
+  background: #0bbd738a;
+  height: 100vh;
+}
+
+#contact-section {
+  background: #0b5ebd8a;
+  height: 100vh;
+}
