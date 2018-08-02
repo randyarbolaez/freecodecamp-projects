@@ -42,6 +42,28 @@ a:hover {
   height: 100vh;
 }
 
+.work-section-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.work-section-div-pic {
+  margin: 0 auto;
+  /* align-content: center; */
+  border: 1px solid red;
+  /* border-bottom: 10%; */
+  width: 20%;
+  height: 20%;
+}
+
+.work-section-div-text {
+  margin: 0 auto;
+  border: 1px solid red;
+  /* mask-border-width: 90vw; */
+}
+
 #contact-section {
   background: #0b5ebd8a;
   height: 100vh;
