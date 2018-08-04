@@ -40,6 +40,8 @@ a:hover {
 #work-section {
   background: #0bbd738a;
   height: 100vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 .work-section-div {
