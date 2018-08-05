@@ -41,13 +41,15 @@ a:hover {
   background: #0bbd738a;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .work-section-div {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  flex-grow: 1;
   /* text-align: center; */
 }
 
@@ -62,7 +64,7 @@ a:hover {
 
 .work-section-div-text {
   margin: 0 auto;
-  border: 2.5px solid red;
+  /* border: 2.5px solid red; */
   /* mask-border-width: 90vw; */
 }
 
