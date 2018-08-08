@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   background: rgb(196, 196, 196);
+  margin-bottom: 5%;
 }
 
 .nav-bar {
@@ -47,4 +48,27 @@ body {
   height: 8vh;
   font-size: 1em;
   font-weight: bold;
+}
+
+.mid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-container-section-img {
+  width: 15vw;
+  height: 20vh;
+}
+
+.mid-container-section {
+  display: flex;
+}
+
+.mid-container-section-text {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
 }
