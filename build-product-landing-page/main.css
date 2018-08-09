@@ -72,3 +72,8 @@ body {
 p {
   margin: 0;
 }
+
+.video-section {
+  display: flex;
+  justify-content: center;
+}
